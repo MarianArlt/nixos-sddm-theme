@@ -110,6 +110,8 @@ Item {
             bottom: parent.bottom
             horizontalCenter: parent.horizontalCenter
         }
+        width: parent.width - 20
+        wrapMode: Text.WordWrap
         height: implicitHeight // work around stupid bug in Plasma Components that sets the height
         // width: constrainText ? parent.width : implicitWidth
         text: wrapper.name
